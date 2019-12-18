@@ -2,7 +2,7 @@
 {
     public class Settings
     {    /// <summary>
-         /// 顺风配置
+         /// 顺风配置（这些配置信息都是丰桥官网去申请的）
          /// </summary>
         public class ShunFeng
         {
@@ -26,7 +26,7 @@
             public const string CustId = "Infrastructure.ShunFeng.CustId";
 
             /// <summary>
-            /// 打印请求的url
+            /// 打印请求的url 例如三联打印:http://localhost:4040/sf/waybill/print?type=V3.0.FM_poster_100mm210mm&output=image
             /// </summary>
             public const string PrintUrl = "Infrastructure.ShunFeng.PrintUrl";
         }

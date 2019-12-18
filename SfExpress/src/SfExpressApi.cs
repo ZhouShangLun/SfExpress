@@ -17,8 +17,14 @@ namespace SfExpress.src
 {
     public interface ISfExpressApi : ITransientDependency
     {
+        /// <summary>
+        /// 顺丰寄件
+        /// </summary>
         Task<SendOrderResponse> SendExpress(SendOrderInfo info);
 
+        /// <summary>
+        /// 顺丰打印接口
+        /// </summary>
         Task<string> SfPrintRequest(SendPrintInfo info);
 
         /// <summary>
